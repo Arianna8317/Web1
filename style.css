@@ -1,0 +1,201 @@
+        @font-face {
+            font-family: 'Gilroy-Bold';
+            src: url('./fonts/Gilroy-Bold.woff2');
+        }
+        
+        @font-face {
+            font-family: 'Gilroy-Medium';
+            src: url('./fonts/Gilroy-Medium.woff2');
+        }
+        
+        @font-face {
+            font-family: 'Gilroy-Semibold';
+            src: url('./fonts/Gilroy-Semibold.woff2');
+        }
+        
+        * {
+            text-decoration: none;
+        }
+        
+        .header {
+            margin-top: 51px;
+            padding-left: 375px;
+            margin-right: 575px;
+        }
+        
+        .header_wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .content {
+            margin-left: 373px;
+            margin-top: 89px;
+        }
+        
+        .content__wrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            gap: 41px;
+        }
+        
+        .subtitle {
+            margin-top: 17px;
+            color: #888;
+            font-family: Gilroy-Medium;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            max-width: 466px;
+        }
+        
+        .title {
+            font-family: Gilroy-Bold;
+            color: #222222;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            max-width: 522px;
+        }
+        
+        .start_button {
+            margin-top: 37px;
+            /*margin-right: 72px; */
+            background: #F25822;
+            width: 120px;
+            height: 40px;
+            outline: none;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            font-size: 15px;
+            color: #ccc;
+            margin-bottom: 50px;
+        }
+        
+        .red {
+            color: red;
+        }
+        
+        .header_link {
+            font-family: Gilroy-SemiBold;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            width: 533px;
+        }
+        
+        .top__logos {
+            margin-top: 259px;
+            margin-left: 345px;
+            display: flex;
+            justify-content: flex-start;
+            gap: 48px;
+            margin-right: 375px;
+        }
+        
+        .logo {
+            width: 160px;
+        }
+        
+        .container {
+            max-width: 1170 px;
+        }
+        
+        .elem {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 60px;
+            padding-left: 368px;
+            margin-right: 401px;
+            margin-top: 140px;
+            margin-bottom: 192px;
+        }
+        
+        .heading {
+            font-family: Gilroy-Bold;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        
+        .elem_img {
+            width: 70px;
+            height: 70px;
+        }
+        
+        .elem_text {
+            color: #666;
+            font-family: Gilroy-Regular;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22.5px;
+            max-width: 310px;
+            margin-bottom: 25px;
+        }
+        
+        h4 {
+            color: #000;
+            font-family: Gilroy-Bold;
+            font-size: 11px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%
+        }
+        
+        h2 {
+            color: #000;
+            font-family: Gilroy-Bold;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 19px;
+        }
+        
+        h3 {
+            color: #666;
+            font-family: Gilroy-Regular;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* max-width: 682px;*/
+        }
+        
+        .elem1 {
+            background: #FFF;
+            box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        .main_img {
+            width: 396px;
+            height: 297px;
+        }
+        
+        .elem2 {
+            background: #FFF;
+            box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+            padding-left: 29px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 370px;
+            height: 291px;
+        }
